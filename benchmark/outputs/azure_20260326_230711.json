@@ -1,0 +1,97 @@
+{
+  "pipeline": "azure",
+  "timestamp": "2026-03-26T23:07:11.629818+00:00",
+  "aggregate": {
+    "total_documents": 5,
+    "field_accuracy": {
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "vendor_name": 1.0,
+      "total_amount": 1.0,
+      "currency": 0.6
+    },
+    "overall_field_accuracy": 0.92,
+    "document_exact_match_rate": 0.6,
+    "hitl_rate": 0.0,
+    "parse_failure_rate": 0.0,
+    "avg_latency_ms": 5613.4,
+    "cost_per_document": 0.01
+  },
+  "per_document": [
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": true,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": true,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 5701,
+      "document_id": "invoice_medium_001.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": true,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": true,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 5629,
+      "document_id": "invoice_medium_002.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": true,
+        "total_amount": true,
+        "currency": false
+      },
+      "exact_match": false,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 5509,
+      "document_id": "invoice_medium_003.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": true,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": true,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 5602,
+      "document_id": "invoice_medium_004.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": true,
+        "total_amount": true,
+        "currency": false
+      },
+      "exact_match": false,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 5626,
+      "document_id": "invoice_medium_005.pdf"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "pipeline": "anthropic_multimodal",
+  "timestamp": "2026-03-27T01:45:11.549451+00:00",
+  "aggregate": {
+    "total_documents": 5,
+    "field_accuracy": {
+      "invoice_number": 0.6,
+      "invoice_date": 0.6,
+      "vendor_name": 0.2,
+      "total_amount": 1.0,
+      "currency": 1.0
+    },
+    "overall_field_accuracy": 0.68,
+    "document_exact_match_rate": 0.2,
+    "hitl_rate": 0.4,
+    "parse_failure_rate": 0.0,
+    "avg_latency_ms": 3892.2,
+    "cost_per_document": 0.05
+  },
+  "per_document": [
+    {
+      "field_accuracy": {
+        "invoice_number": false,
+        "invoice_date": false,
+        "vendor_name": false,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": false,
+      "hitl_flagged": true,
+      "hitl_reasons": [
+        "missing_field: vendor_name"
+      ],
+      "parse_failure": false,
+      "latency_ms": 3139,
+      "document_id": "invoice_hard_001.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": true,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": true,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 4089,
+      "document_id": "invoice_hard_002.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": false,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": false,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 3800,
+      "document_id": "invoice_hard_003.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": true,
+        "invoice_date": true,
+        "vendor_name": false,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": false,
+      "hitl_flagged": true,
+      "hitl_reasons": [
+        "missing_field: vendor_name"
+      ],
+      "parse_failure": false,
+      "latency_ms": 4822,
+      "document_id": "invoice_hard_004.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": false,
+        "invoice_date": false,
+        "vendor_name": false,
+        "total_amount": true,
+        "currency": true
+      },
+      "exact_match": false,
+      "hitl_flagged": false,
+      "hitl_reasons": [],
+      "parse_failure": false,
+      "latency_ms": 3611,
+      "document_id": "invoice_hard_005.pdf"
+    }
+  ]
+}

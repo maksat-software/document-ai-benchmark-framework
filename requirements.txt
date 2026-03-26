@@ -1,0 +1,7 @@
+anthropic>=0.86.0
+azure-ai-formrecognizer>=3.3.3
+azure-core>=1.39.0
+openai>=2.30.0
+PyMuPDF>=1.27.2.2
+python-dotenv>=1.2.2
+pyyaml>=6.0.3

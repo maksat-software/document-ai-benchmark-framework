@@ -1,0 +1,35 @@
+[
+  {
+    "document_id": "invoice_001",
+    "file_path": "data/raw/invoice_001.pdf",
+    "expected": {
+      "invoice_number": "INV-2024-001",
+      "invoice_date": "2024-01-15",
+      "vendor_name": "Acme Corp",
+      "total_amount": 1250.00,
+      "currency": "USD"
+    }
+  },
+  {
+    "document_id": "invoice_002",
+    "file_path": "data/raw/invoice_002.pdf",
+    "expected": {
+      "invoice_number": "2024/0042",
+      "invoice_date": "2024-02-28",
+      "vendor_name": "Global Supplies Ltd",
+      "total_amount": 3499.99,
+      "currency": "EUR"
+    }
+  },
+  {
+    "document_id": "invoice_003",
+    "file_path": "data/raw/invoice_003.pdf",
+    "expected": {
+      "invoice_number": "REC-88312",
+      "invoice_date": "2024-03-10",
+      "vendor_name": "TechParts GmbH",
+      "total_amount": 780.50,
+      "currency": "EUR"
+    }
+  }
+]
