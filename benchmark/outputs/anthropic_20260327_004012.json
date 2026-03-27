@@ -1,0 +1,132 @@
+{
+  "pipeline": "anthropic",
+  "timestamp": "2026-03-27T00:40:12.270831+00:00",
+  "aggregate": {
+    "total_documents": 5,
+    "field_accuracy": {
+      "invoice_number": 0.0,
+      "invoice_date": 0.0,
+      "vendor_name": 0.0,
+      "total_amount": 0.0,
+      "currency": 0.0
+    },
+    "overall_field_accuracy": 0.0,
+    "document_exact_match_rate": 0.0,
+    "hitl_rate": 1.0,
+    "parse_failure_rate": 1.0,
+    "avg_latency_ms": 0.0,
+    "cost_per_document": 0.03
+  },
+  "per_document": [
+    {
+      "field_accuracy": {
+        "invoice_number": false,
+        "invoice_date": false,
+        "vendor_name": false,
+        "total_amount": false,
+        "currency": false
+      },
+      "exact_match": false,
+      "hitl_flagged": true,
+      "hitl_reasons": [
+        "extraction_error: All 1 page(s) returned no text; document is likely scan/image-based (not OCR'd)",
+        "missing_field: invoice_number",
+        "missing_field: invoice_date",
+        "missing_field: vendor_name",
+        "missing_field: total_amount",
+        "missing_field: currency"
+      ],
+      "parse_failure": true,
+      "latency_ms": 0,
+      "document_id": "invoice_hard_001.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": false,
+        "invoice_date": false,
+        "vendor_name": false,
+        "total_amount": false,
+        "currency": false
+      },
+      "exact_match": false,
+      "hitl_flagged": true,
+      "hitl_reasons": [
+        "extraction_error: All 1 page(s) returned no text; document is likely scan/image-based (not OCR'd)",
+        "missing_field: invoice_number",
+        "missing_field: invoice_date",
+        "missing_field: vendor_name",
+        "missing_field: total_amount",
+        "missing_field: currency"
+      ],
+      "parse_failure": true,
+      "latency_ms": 0,
+      "document_id": "invoice_hard_002.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": false,
+        "invoice_date": false,
+        "vendor_name": false,
+        "total_amount": false,
+        "currency": false
+      },
+      "exact_match": false,
+      "hitl_flagged": true,
+      "hitl_reasons": [
+        "extraction_error: All 1 page(s) returned no text; document is likely scan/image-based (not OCR'd)",
+        "missing_field: invoice_number",
+        "missing_field: invoice_date",
+        "missing_field: vendor_name",
+        "missing_field: total_amount",
+        "missing_field: currency"
+      ],
+      "parse_failure": true,
+      "latency_ms": 0,
+      "document_id": "invoice_hard_003.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": false,
+        "invoice_date": false,
+        "vendor_name": false,
+        "total_amount": false,
+        "currency": false
+      },
+      "exact_match": false,
+      "hitl_flagged": true,
+      "hitl_reasons": [
+        "extraction_error: All 1 page(s) returned no text; document is likely scan/image-based (not OCR'd)",
+        "missing_field: invoice_number",
+        "missing_field: invoice_date",
+        "missing_field: vendor_name",
+        "missing_field: total_amount",
+        "missing_field: currency"
+      ],
+      "parse_failure": true,
+      "latency_ms": 0,
+      "document_id": "invoice_hard_004.pdf"
+    },
+    {
+      "field_accuracy": {
+        "invoice_number": false,
+        "invoice_date": false,
+        "vendor_name": false,
+        "total_amount": false,
+        "currency": false
+      },
+      "exact_match": false,
+      "hitl_flagged": true,
+      "hitl_reasons": [
+        "extraction_error: All 1 page(s) returned no text; document is likely scan/image-based (not OCR'd)",
+        "missing_field: invoice_number",
+        "missing_field: invoice_date",
+        "missing_field: vendor_name",
+        "missing_field: total_amount",
+        "missing_field: currency"
+      ],
+      "parse_failure": true,
+      "latency_ms": 0,
+      "document_id": "invoice_hard_005.pdf"
+    }
+  ]
+}

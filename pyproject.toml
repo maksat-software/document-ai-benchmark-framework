@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "document-ai-benchmark-framework"
+version = "0.1.0"
+description = "Benchmark framework comparing Azure Document Intelligence vs LLM-based document extraction"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-ai-formrecognizer>=3.3.0",
+    "azure-core>=1.30.0",
+    "openai>=1.0.0",
+    "PyMuPDF>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+run-benchmark = "pipelines.run_benchmark:main"
