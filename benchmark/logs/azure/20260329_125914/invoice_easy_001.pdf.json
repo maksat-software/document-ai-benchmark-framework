@@ -1,0 +1,2733 @@
+{
+  "document_id": "invoice_easy_001.pdf",
+  "logged_at": "2026-03-29T12:59:14.545009+00:00",
+  "provider": "azure",
+  "model": "prebuilt-invoice",
+  "latency_ms": 7575,
+  "errors": [],
+  "extracted_fields": {
+    "invoice_number": "INV-2026-0001",
+    "invoice_date": "2026-03-11",
+    "vendor_name": "Acme Solutions Inc.",
+    "total_amount": 9771.69,
+    "currency": "USD"
+  },
+  "azure_analyze_result": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-invoice",
+    "stringIndexType": "textElements",
+    "content": "INVOICE\nAcme Solutions Inc.\nINV-2026-0001\nInvoice Number:\n123 Business Avenue\n2026-03-11\nInvoice Date:\nSuite 100, Business City\nUSD\nCurrency:\nBill To:\nSample Customer Corp.\n456 Client Road\nDescription\nQty\nUnit Price\nAmount\nSupport Contract\n3\n805.37\n2416.11\nReport Generation\n2\n3677.79\n7355.58\nTotal: USD 9,771.69\nThank you for your business. Payment due within 30 days.",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0.05043400079011917,
+        "width": 8.5,
+        "height": 11,
+        "unit": "inch",
+        "words": [
+          {
+            "content": "INVOICE",
+            "polygon": [
+              0.694,
+              0.5725,
+              2.0641,
+              0.5635,
+              2.0641,
+              0.8636,
+              0.6948,
+              0.8618
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 0,
+              "length": 7
+            }
+          },
+          {
+            "content": "Acme",
+            "polygon": [
+              0.6884,
+              1.2522,
+              1.1139,
+              1.2529,
+              1.1138,
+              1.4172,
+              0.6884,
+              1.416
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 8,
+              "length": 4
+            }
+          },
+          {
+            "content": "Solutions",
+            "polygon": [
+              1.1705,
+              1.2529,
+              1.8465,
+              1.2527,
+              1.8455,
+              1.4172,
+              1.1703,
+              1.4172
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 13,
+              "length": 9
+            }
+          },
+          {
+            "content": "Inc.",
+            "polygon": [
+              1.9084,
+              1.2527,
+              2.1637,
+              1.2537,
+              2.1637,
+              1.4162,
+              1.9072,
+              1.4172
+            ],
+            "confidence": 0.963,
+            "span": {
+              "offset": 23,
+              "length": 4
+            }
+          },
+          {
+            "content": "INV-2026-0001",
+            "polygon": [
+              5.053,
+              1.2707,
+              5.9932,
+              1.2721,
+              5.9932,
+              1.4079,
+              5.0535,
+              1.4065
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 28,
+              "length": 13
+            }
+          },
+          {
+            "content": "Invoice",
+            "polygon": [
+              6.7055,
+              1.2739,
+              7.19,
+              1.2751,
+              7.1898,
+              1.4151,
+              6.7061,
+              1.4159
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 42,
+              "length": 7
+            }
+          },
+          {
+            "content": "Number:",
+            "polygon": [
+              7.2387,
+              1.2755,
+              7.8083,
+              1.2731,
+              7.8083,
+              1.4163,
+              7.2386,
+              1.4153
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 50,
+              "length": 7
+            }
+          },
+          {
+            "content": "123",
+            "polygon": [
+              0.7028,
+              1.4753,
+              0.9636,
+              1.4734,
+              0.9635,
+              1.6387,
+              0.7034,
+              1.6361
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 58,
+              "length": 3
+            }
+          },
+          {
+            "content": "Business",
+            "polygon": [
+              1.0275,
+              1.4733,
+              1.6877,
+              1.4767,
+              1.6868,
+              1.6387,
+              1.0273,
+              1.6387
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 62,
+              "length": 8
+            }
+          },
+          {
+            "content": "Avenue",
+            "polygon": [
+              1.7356,
+              1.4771,
+              2.3132,
+              1.4793,
+              2.3132,
+              1.638,
+              1.7347,
+              1.6387
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 71,
+              "length": 6
+            }
+          },
+          {
+            "content": "2026-03-11",
+            "polygon": [
+              5.2845,
+              1.4963,
+              5.9932,
+              1.4961,
+              5.9932,
+              1.6276,
+              5.2841,
+              1.6272
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 78,
+              "length": 10
+            }
+          },
+          {
+            "content": "Invoice",
+            "polygon": [
+              6.9311,
+              1.4971,
+              7.4133,
+              1.4977,
+              7.4132,
+              1.6355,
+              6.9321,
+              1.6366
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 89,
+              "length": 7
+            }
+          },
+          {
+            "content": "Date:",
+            "polygon": [
+              7.4635,
+              1.4978,
+              7.8083,
+              1.4935,
+              7.8083,
+              1.6366,
+              7.4634,
+              1.6359
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 97,
+              "length": 5
+            }
+          },
+          {
+            "content": "Suite",
+            "polygon": [
+              0.691,
+              1.6898,
+              1.0679,
+              1.6893,
+              1.0668,
+              1.8726,
+              0.6903,
+              1.8687
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 103,
+              "length": 5
+            }
+          },
+          {
+            "content": "100,",
+            "polygon": [
+              1.1338,
+              1.6888,
+              1.4329,
+              1.6893,
+              1.4312,
+              1.874,
+              1.1324,
+              1.8729
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 109,
+              "length": 4
+            }
+          },
+          {
+            "content": "Business",
+            "polygon": [
+              1.4987,
+              1.6896,
+              2.1628,
+              1.6946,
+              2.1587,
+              1.8752,
+              1.4968,
+              1.8742
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 114,
+              "length": 8
+            }
+          },
+          {
+            "content": "City",
+            "polygon": [
+              2.2196,
+              1.6941,
+              2.5068,
+              1.6979,
+              2.5066,
+              1.8801,
+              2.2152,
+              1.8763
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 123,
+              "length": 4
+            }
+          },
+          {
+            "content": "USD",
+            "polygon": [
+              5.7065,
+              1.7148,
+              6.0042,
+              1.7162,
+              6.0042,
+              1.8454,
+              5.7057,
+              1.8483
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 128,
+              "length": 3
+            }
+          },
+          {
+            "content": "Currency:",
+            "polygon": [
+              7.1471,
+              1.7192,
+              7.8083,
+              1.7254,
+              7.8083,
+              1.8712,
+              7.1458,
+              1.8643
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 132,
+              "length": 9
+            }
+          },
+          {
+            "content": "Bill",
+            "polygon": [
+              0.6911,
+              2.3839,
+              0.9258,
+              2.3858,
+              0.9247,
+              2.5244,
+              0.6901,
+              2.5236
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 142,
+              "length": 4
+            }
+          },
+          {
+            "content": "To:",
+            "polygon": [
+              0.9555,
+              2.3865,
+              1.1676,
+              2.3842,
+              1.1676,
+              2.5244,
+              0.9542,
+              2.5244
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 147,
+              "length": 3
+            }
+          },
+          {
+            "content": "Sample",
+            "polygon": [
+              0.6899,
+              2.601,
+              1.1603,
+              2.6028,
+              1.1599,
+              2.7624,
+              0.6897,
+              2.7599
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 151,
+              "length": 6
+            }
+          },
+          {
+            "content": "Customer",
+            "polygon": [
+              1.2045,
+              2.6027,
+              1.8074,
+              2.6057,
+              1.8059,
+              2.7625,
+              1.2041,
+              2.7625
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 158,
+              "length": 8
+            }
+          },
+          {
+            "content": "Corp.",
+            "polygon": [
+              1.8464,
+              2.6059,
+              2.1859,
+              2.6065,
+              2.1859,
+              2.7625,
+              1.8448,
+              2.7625
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 167,
+              "length": 5
+            }
+          },
+          {
+            "content": "456",
+            "polygon": [
+              0.6888,
+              2.8235,
+              0.9207,
+              2.8251,
+              0.9193,
+              2.9699,
+              0.6883,
+              2.9687
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 173,
+              "length": 3
+            }
+          },
+          {
+            "content": "Client",
+            "polygon": [
+              0.9656,
+              2.8255,
+              1.3182,
+              2.8275,
+              1.3164,
+              2.97,
+              0.9642,
+              2.9697
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 177,
+              "length": 6
+            }
+          },
+          {
+            "content": "Road",
+            "polygon": [
+              1.3631,
+              2.827,
+              1.6989,
+              2.8242,
+              1.6989,
+              2.9701,
+              1.3615,
+              2.9702
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 184,
+              "length": 4
+            }
+          },
+          {
+            "content": "Description",
+            "polygon": [
+              0.7738,
+              4.0371,
+              1.5439,
+              4.0358,
+              1.5439,
+              4.1907,
+              0.7735,
+              4.1878
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 189,
+              "length": 11
+            }
+          },
+          {
+            "content": "Qty",
+            "polygon": [
+              4.6843,
+              4.039,
+              4.9196,
+              4.044,
+              4.9195,
+              4.1907,
+              4.6812,
+              4.1845
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 201,
+              "length": 3
+            }
+          },
+          {
+            "content": "Unit",
+            "polygon": [
+              5.6534,
+              4.0368,
+              5.9267,
+              4.0372,
+              5.9262,
+              4.1705,
+              5.6531,
+              4.1701
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 205,
+              "length": 4
+            }
+          },
+          {
+            "content": "Price",
+            "polygon": [
+              5.9705,
+              4.0385,
+              6.3086,
+              4.0395,
+              6.3086,
+              4.1737,
+              5.9699,
+              4.1714
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 210,
+              "length": 5
+            }
+          },
+          {
+            "content": "Amount",
+            "polygon": [
+              7.1645,
+              4.0401,
+              7.7031,
+              4.0433,
+              7.7031,
+              4.1717,
+              7.1638,
+              4.1705
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 216,
+              "length": 6
+            }
+          },
+          {
+            "content": "Support",
+            "polygon": [
+              0.7707,
+              4.2808,
+              1.2631,
+              4.2808,
+              1.2624,
+              4.4407,
+              0.7704,
+              4.4421
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 223,
+              "length": 7
+            }
+          },
+          {
+            "content": "Contract",
+            "polygon": [
+              1.3048,
+              4.2808,
+              1.8428,
+              4.2789,
+              1.8428,
+              4.4363,
+              1.3042,
+              4.44
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 231,
+              "length": 8
+            }
+          },
+          {
+            "content": "3",
+            "polygon": [
+              4.8365,
+              4.2897,
+              4.9196,
+              4.2905,
+              4.9196,
+              4.4122,
+              4.836,
+              4.4094
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 240,
+              "length": 1
+            }
+          },
+          {
+            "content": "805.37",
+            "polygon": [
+              5.8769,
+              4.2875,
+              6.3086,
+              4.2867,
+              6.3086,
+              4.4178,
+              5.8764,
+              4.4193
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 242,
+              "length": 6
+            }
+          },
+          {
+            "content": "2416.11",
+            "polygon": [
+              7.1859,
+              4.2868,
+              7.6921,
+              4.2863,
+              7.6921,
+              4.4174,
+              7.1856,
+              4.4177
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 249,
+              "length": 7
+            }
+          },
+          {
+            "content": "Report",
+            "polygon": [
+              0.771,
+              4.5335,
+              1.1933,
+              4.5342,
+              1.1928,
+              4.6872,
+              0.771,
+              4.6882
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 257,
+              "length": 6
+            }
+          },
+          {
+            "content": "Generation",
+            "polygon": [
+              1.2358,
+              4.5346,
+              1.9258,
+              4.5338,
+              1.9258,
+              4.6852,
+              1.2354,
+              4.6874
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 264,
+              "length": 10
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              4.8371,
+              4.5407,
+              4.9196,
+              4.5413,
+              4.9196,
+              4.6659,
+              4.8365,
+              4.6623
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 275,
+              "length": 1
+            }
+          },
+          {
+            "content": "3677.79",
+            "polygon": [
+              5.7994,
+              4.5359,
+              6.3134,
+              4.5353,
+              6.3124,
+              4.6688,
+              5.7989,
+              4.6698
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 277,
+              "length": 7
+            }
+          },
+          {
+            "content": "7355.58",
+            "polygon": [
+              7.189,
+              4.5334,
+              7.7031,
+              4.5327,
+              7.7031,
+              4.6668,
+              7.1887,
+              4.6668
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 285,
+              "length": 7
+            }
+          },
+          {
+            "content": "Total:",
+            "polygon": [
+              6.2488,
+              4.996,
+              6.6971,
+              4.9962,
+              6.6973,
+              5.1679,
+              6.2493,
+              5.1657
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 293,
+              "length": 6
+            }
+          },
+          {
+            "content": "USD",
+            "polygon": [
+              6.7644,
+              4.9968,
+              7.1034,
+              4.9964,
+              7.1028,
+              5.1679,
+              6.7644,
+              5.1679
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 300,
+              "length": 3
+            }
+          },
+          {
+            "content": "9,771.69",
+            "polygon": [
+              7.1566,
+              4.9965,
+              7.8083,
+              4.9941,
+              7.8083,
+              5.1671,
+              7.1563,
+              5.1684
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 304,
+              "length": 8
+            }
+          },
+          {
+            "content": "Thank",
+            "polygon": [
+              0.6865,
+              10.3484,
+              1.0022,
+              10.3479,
+              1.0011,
+              10.4796,
+              0.6854,
+              10.4778
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 313,
+              "length": 5
+            }
+          },
+          {
+            "content": "you",
+            "polygon": [
+              1.0323,
+              10.3481,
+              1.2063,
+              10.3477,
+              1.2052,
+              10.4796,
+              1.0313,
+              10.4796
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 319,
+              "length": 3
+            }
+          },
+          {
+            "content": "for",
+            "polygon": [
+              1.2406,
+              10.3474,
+              1.3738,
+              10.3475,
+              1.3726,
+              10.4796,
+              1.2395,
+              10.4796
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 323,
+              "length": 3
+            }
+          },
+          {
+            "content": "your",
+            "polygon": [
+              1.4017,
+              10.3477,
+              1.6057,
+              10.349,
+              1.6046,
+              10.4796,
+              1.4006,
+              10.4796
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 327,
+              "length": 4
+            }
+          },
+          {
+            "content": "business.",
+            "polygon": [
+              1.6315,
+              10.3491,
+              2.1148,
+              10.3491,
+              2.1133,
+              10.4796,
+              1.6304,
+              10.4796
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 332,
+              "length": 9
+            }
+          },
+          {
+            "content": "Payment",
+            "polygon": [
+              2.1556,
+              10.3489,
+              2.5916,
+              10.3505,
+              2.5899,
+              10.4796,
+              2.154,
+              10.4796
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 342,
+              "length": 7
+            }
+          },
+          {
+            "content": "due",
+            "polygon": [
+              2.6217,
+              10.3504,
+              2.7999,
+              10.35,
+              2.7981,
+              10.4796,
+              2.6199,
+              10.4796
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 350,
+              "length": 3
+            }
+          },
+          {
+            "content": "within",
+            "polygon": [
+              2.8343,
+              10.3499,
+              3.1157,
+              10.3497,
+              3.1136,
+              10.4795,
+              2.8325,
+              10.4796
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 354,
+              "length": 6
+            }
+          },
+          {
+            "content": "30",
+            "polygon": [
+              3.1522,
+              10.3497,
+              3.2703,
+              10.3491,
+              3.2684,
+              10.4793,
+              3.1501,
+              10.4794
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 361,
+              "length": 2
+            }
+          },
+          {
+            "content": "days.",
+            "polygon": [
+              3.3068,
+              10.349,
+              3.5732,
+              10.3501,
+              3.5725,
+              10.4794,
+              3.305,
+              10.4793
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 364,
+              "length": 5
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "INVOICE",
+            "polygon": [
+              0.694,
+              0.562,
+              2.0612,
+              0.5633,
+              2.0609,
+              0.8606,
+              0.6938,
+              0.8593
+            ],
+            "spans": [
+              {
+                "offset": 0,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "Acme Solutions Inc.",
+            "polygon": [
+              0.6884,
+              1.2514,
+              2.163,
+              1.2527,
+              2.1629,
+              1.4158,
+              0.6883,
+              1.4145
+            ],
+            "spans": [
+              {
+                "offset": 8,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "content": "INV-2026-0001",
+            "polygon": [
+              5.053,
+              1.2706,
+              5.9902,
+              1.2722,
+              5.9899,
+              1.4068,
+              5.0528,
+              1.4052
+            ],
+            "spans": [
+              {
+                "offset": 28,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "Invoice Number:",
+            "polygon": [
+              6.7055,
+              1.2736,
+              7.8067,
+              1.2732,
+              7.8067,
+              1.4145,
+              6.7055,
+              1.4149
+            ],
+            "spans": [
+              {
+                "offset": 42,
+                "length": 15
+              }
+            ]
+          },
+          {
+            "content": "123 Business Avenue",
+            "polygon": [
+              0.7028,
+              1.4728,
+              2.3104,
+              1.4754,
+              2.3102,
+              1.6382,
+              0.7025,
+              1.6356
+            ],
+            "spans": [
+              {
+                "offset": 58,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "content": "2026-03-11",
+            "polygon": [
+              5.2842,
+              1.4959,
+              5.9917,
+              1.4961,
+              5.9916,
+              1.6262,
+              5.2841,
+              1.626
+            ],
+            "spans": [
+              {
+                "offset": 78,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "Invoice Date:",
+            "polygon": [
+              6.9311,
+              1.497,
+              7.8038,
+              1.4934,
+              7.8044,
+              1.6346,
+              6.9317,
+              1.6382
+            ],
+            "spans": [
+              {
+                "offset": 89,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "content": "Suite 100, Business City",
+            "polygon": [
+              0.691,
+              1.6854,
+              2.5055,
+              1.6947,
+              2.5045,
+              1.877,
+              0.6901,
+              1.8676
+            ],
+            "spans": [
+              {
+                "offset": 103,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "content": "USD",
+            "polygon": [
+              5.7062,
+              1.7148,
+              6.0005,
+              1.7159,
+              6,
+              1.8473,
+              5.7057,
+              1.8461
+            ],
+            "spans": [
+              {
+                "offset": 128,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "Currency:",
+            "polygon": [
+              7.1471,
+              1.7192,
+              7.805,
+              1.7255,
+              7.8036,
+              1.8707,
+              7.1457,
+              1.8644
+            ],
+            "spans": [
+              {
+                "offset": 132,
+                "length": 9
+              }
+            ]
+          },
+          {
+            "content": "Bill To:",
+            "polygon": [
+              0.6902,
+              2.3839,
+              1.165,
+              2.3841,
+              1.1649,
+              2.5231,
+              0.6901,
+              2.5228
+            ],
+            "spans": [
+              {
+                "offset": 142,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Sample Customer Corp.",
+            "polygon": [
+              0.6899,
+              2.601,
+              2.1806,
+              2.6043,
+              2.1802,
+              2.7625,
+              0.6895,
+              2.7601
+            ],
+            "spans": [
+              {
+                "offset": 151,
+                "length": 21
+              }
+            ]
+          },
+          {
+            "content": "456 Client Road",
+            "polygon": [
+              0.6884,
+              2.8235,
+              1.6945,
+              2.8242,
+              1.6944,
+              2.9686,
+              0.6883,
+              2.9679
+            ],
+            "spans": [
+              {
+                "offset": 173,
+                "length": 15
+              }
+            ]
+          },
+          {
+            "content": "Description",
+            "polygon": [
+              0.7735,
+              4.0354,
+              1.5408,
+              4.0355,
+              1.5408,
+              4.1887,
+              0.7735,
+              4.1886
+            ],
+            "spans": [
+              {
+                "offset": 189,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "content": "Qty",
+            "polygon": [
+              4.6841,
+              4.039,
+              4.9188,
+              4.0438,
+              4.9158,
+              4.1885,
+              4.6812,
+              4.1837
+            ],
+            "spans": [
+              {
+                "offset": 201,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "content": "Unit Price",
+            "polygon": [
+              5.6534,
+              4.0357,
+              6.307,
+              4.0388,
+              6.3062,
+              4.1724,
+              5.6526,
+              4.1688
+            ],
+            "spans": [
+              {
+                "offset": 205,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "Amount",
+            "polygon": [
+              7.1645,
+              4.0401,
+              7.7022,
+              4.0433,
+              7.7015,
+              4.1721,
+              7.1637,
+              4.1689
+            ],
+            "spans": [
+              {
+                "offset": 216,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "Support Contract",
+            "polygon": [
+              0.7702,
+              4.2806,
+              1.8378,
+              4.2789,
+              1.838,
+              4.4391,
+              0.7704,
+              4.4409
+            ],
+            "spans": [
+              {
+                "offset": 223,
+                "length": 16
+              }
+            ]
+          },
+          {
+            "content": "3",
+            "polygon": [
+              4.8365,
+              4.2897,
+              4.9158,
+              4.29,
+              4.9153,
+              4.4113,
+              4.836,
+              4.4109
+            ],
+            "spans": [
+              {
+                "offset": 240,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "content": "805.37",
+            "polygon": [
+              5.8757,
+              4.2874,
+              6.3056,
+              4.2853,
+              6.3062,
+              4.4161,
+              5.8764,
+              4.4182
+            ],
+            "spans": [
+              {
+                "offset": 242,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "content": "2416.11",
+            "polygon": [
+              7.1854,
+              4.2868,
+              7.6887,
+              4.2858,
+              7.689,
+              4.4156,
+              7.1856,
+              4.4167
+            ],
+            "spans": [
+              {
+                "offset": 249,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "Report Generation",
+            "polygon": [
+              0.771,
+              4.5324,
+              1.9219,
+              4.5338,
+              1.9217,
+              4.6878,
+              0.7708,
+              4.6864
+            ],
+            "spans": [
+              {
+                "offset": 257,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "2",
+            "polygon": [
+              4.8371,
+              4.5407,
+              4.9187,
+              4.5411,
+              4.9181,
+              4.6642,
+              4.8364,
+              4.6637
+            ],
+            "spans": [
+              {
+                "offset": 275,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "content": "3677.79",
+            "polygon": [
+              5.7984,
+              4.5355,
+              6.3096,
+              4.534,
+              6.3101,
+              4.6666,
+              5.7989,
+              4.6684
+            ],
+            "spans": [
+              {
+                "offset": 277,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "7355.58",
+            "polygon": [
+              7.1887,
+              4.5325,
+              7.6996,
+              4.5326,
+              7.6996,
+              4.6663,
+              7.1887,
+              4.6662
+            ],
+            "spans": [
+              {
+                "offset": 285,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "content": "Total: USD 9,771.69",
+            "polygon": [
+              6.2488,
+              4.9961,
+              7.8065,
+              4.9941,
+              7.8068,
+              5.1654,
+              6.249,
+              5.1673
+            ],
+            "spans": [
+              {
+                "offset": 293,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "content": "Thank you for your business. Payment due within 30 days.",
+            "polygon": [
+              0.6855,
+              10.3468,
+              3.571,
+              10.3479,
+              3.5709,
+              10.4796,
+              0.6855,
+              10.4784
+            ],
+            "spans": [
+              {
+                "offset": 313,
+                "length": 56
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 369
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "rowCount": 3,
+        "columnCount": 3,
+        "cells": [
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Acme Solutions Inc.",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6034,
+                  1.2039,
+                  3.7874,
+                  1.2039,
+                  3.78,
+                  1.4484,
+                  0.6108,
+                  1.4484
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 8,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "INV-2026-0001",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  3.7874,
+                  1.2039,
+                  6.3435,
+                  1.2039,
+                  6.3435,
+                  1.4484,
+                  3.78,
+                  1.4484
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 28,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 2,
+            "content": "Invoice Number:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  6.3435,
+                  1.2039,
+                  7.8727,
+                  1.2039,
+                  7.8727,
+                  1.4484,
+                  6.3435,
+                  1.4484
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 42,
+                "length": 15
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "123 Business Avenue",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6108,
+                  1.4484,
+                  3.78,
+                  1.4484,
+                  3.78,
+                  1.6707,
+                  0.6108,
+                  1.6707
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 58,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "2026-03-11",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  3.78,
+                  1.4484,
+                  6.3435,
+                  1.4484,
+                  6.3435,
+                  1.6707,
+                  3.78,
+                  1.6707
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 78,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 2,
+            "content": "Invoice Date:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  6.3435,
+                  1.4484,
+                  7.8727,
+                  1.4484,
+                  7.8727,
+                  1.6707,
+                  6.3435,
+                  1.6707
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 89,
+                "length": 13
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "Suite 100, Business City",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6108,
+                  1.6707,
+                  3.78,
+                  1.6707,
+                  3.78,
+                  1.9078,
+                  0.6108,
+                  1.9078
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 103,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "USD",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  3.78,
+                  1.6707,
+                  6.3435,
+                  1.6707,
+                  6.3435,
+                  1.9078,
+                  3.78,
+                  1.9078
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 128,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 2,
+            "content": "Currency:",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  6.3435,
+                  1.6707,
+                  7.8727,
+                  1.6707,
+                  7.8727,
+                  1.9078,
+                  6.3435,
+                  1.9078
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 132,
+                "length": 9
+              }
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.6456,
+              1.2322,
+              7.8455,
+              1.233,
+              7.844,
+              1.8654,
+              0.6425,
+              1.8647
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 8,
+            "length": 133
+          }
+        ]
+      },
+      {
+        "rowCount": 3,
+        "columnCount": 4,
+        "cells": [
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 0,
+            "content": "Description",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6902,
+                  3.9665,
+                  4.1552,
+                  3.9665,
+                  4.1552,
+                  4.2219,
+                  0.6902,
+                  4.2219
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 189,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 1,
+            "content": "Qty",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  4.1552,
+                  3.9665,
+                  4.9923,
+                  3.9665,
+                  4.9923,
+                  4.2219,
+                  4.1552,
+                  4.2219
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 201,
+                "length": 3
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 2,
+            "content": "Unit Price",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  4.9923,
+                  3.9665,
+                  6.3754,
+                  3.9665,
+                  6.3754,
+                  4.2146,
+                  4.9923,
+                  4.2219
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 205,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "kind": "columnHeader",
+            "rowIndex": 0,
+            "columnIndex": 3,
+            "content": "Amount",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  6.3754,
+                  3.9665,
+                  7.7731,
+                  3.9665,
+                  7.7731,
+                  4.2146,
+                  6.3754,
+                  4.2146
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 216,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 0,
+            "content": "Support Contract",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6902,
+                  4.2219,
+                  4.1552,
+                  4.2219,
+                  4.1552,
+                  4.4701,
+                  0.6902,
+                  4.4701
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 223,
+                "length": 16
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 1,
+            "content": "3",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  4.1552,
+                  4.2219,
+                  4.9923,
+                  4.2219,
+                  4.9996,
+                  4.4701,
+                  4.1552,
+                  4.4701
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 240,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 2,
+            "content": "805.37",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  4.9923,
+                  4.2219,
+                  6.3754,
+                  4.2146,
+                  6.3827,
+                  4.4701,
+                  4.9996,
+                  4.4701
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 242,
+                "length": 6
+              }
+            ]
+          },
+          {
+            "rowIndex": 1,
+            "columnIndex": 3,
+            "content": "2416.11",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  6.3754,
+                  4.2146,
+                  7.7731,
+                  4.2146,
+                  7.7731,
+                  4.4701,
+                  6.3827,
+                  4.4701
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 249,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 0,
+            "content": "Report Generation",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6902,
+                  4.4701,
+                  4.1552,
+                  4.4701,
+                  4.1552,
+                  4.7182,
+                  0.6902,
+                  4.7182
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 257,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 1,
+            "content": "2",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  4.1552,
+                  4.4701,
+                  4.9996,
+                  4.4701,
+                  4.9996,
+                  4.7182,
+                  4.1552,
+                  4.7182
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 275,
+                "length": 1
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 2,
+            "content": "3677.79",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  4.9996,
+                  4.4701,
+                  6.3827,
+                  4.4701,
+                  6.3827,
+                  4.7255,
+                  4.9996,
+                  4.7182
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 277,
+                "length": 7
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "columnIndex": 3,
+            "content": "7355.58",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  6.3827,
+                  4.4701,
+                  7.7731,
+                  4.4701,
+                  7.7731,
+                  4.7255,
+                  6.3827,
+                  4.7255
+                ]
+              }
+            ],
+            "spans": [
+              {
+                "offset": 285,
+                "length": 7
+              }
+            ]
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.6777,
+              3.963,
+              7.7772,
+              3.9644,
+              7.7801,
+              4.7317,
+              0.6799,
+              4.73
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 189,
+            "length": 103
+          }
+        ]
+      }
+    ],
+    "styles": [],
+    "documents": [
+      {
+        "docType": "invoice",
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0,
+              0,
+              8.5,
+              0,
+              8.5,
+              11,
+              0,
+              11
+            ]
+          }
+        ],
+        "fields": {
+          "BillingAddress": {
+            "type": "address",
+            "content": "456 Client Road",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6888,
+                  2.8209,
+                  1.6994,
+                  2.8242,
+                  1.6989,
+                  2.9724,
+                  0.6883,
+                  2.9691
+                ]
+              }
+            ],
+            "confidence": 0.93,
+            "spans": [
+              {
+                "offset": 173,
+                "length": 15
+              }
+            ],
+            "valueAddress": {
+              "houseNumber": "456",
+              "road": "Client Road",
+              "streetAddress": "456 Client Road"
+            }
+          },
+          "BillingAddressRecipient": {
+            "type": "string",
+            "valueString": "Sample Customer Corp.",
+            "content": "Sample Customer Corp.",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6899,
+                  2.601,
+                  2.1863,
+                  2.6047,
+                  2.1859,
+                  2.765,
+                  0.6895,
+                  2.7612
+                ]
+              }
+            ],
+            "confidence": 0.931,
+            "spans": [
+              {
+                "offset": 151,
+                "length": 21
+              }
+            ]
+          },
+          "CustomerName": {
+            "type": "string",
+            "valueString": "Sample Customer Corp.",
+            "content": "Sample Customer Corp.",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6899,
+                  2.601,
+                  2.1863,
+                  2.6047,
+                  2.1859,
+                  2.765,
+                  0.6895,
+                  2.7612
+                ]
+              }
+            ],
+            "confidence": 0.931,
+            "spans": [
+              {
+                "offset": 151,
+                "length": 21
+              }
+            ]
+          },
+          "InvoiceDate": {
+            "type": "date",
+            "valueDate": "2026-03-11",
+            "content": "2026-03-11",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  5.2845,
+                  1.4963,
+                  5.9932,
+                  1.4961,
+                  5.9932,
+                  1.6276,
+                  5.2841,
+                  1.6272
+                ]
+              }
+            ],
+            "confidence": 0.865,
+            "spans": [
+              {
+                "offset": 78,
+                "length": 10
+              }
+            ]
+          },
+          "InvoiceId": {
+            "type": "string",
+            "valueString": "INV-2026-0001",
+            "content": "INV-2026-0001",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  5.053,
+                  1.2707,
+                  5.9932,
+                  1.2721,
+                  5.9932,
+                  1.4079,
+                  5.0535,
+                  1.4065
+                ]
+              }
+            ],
+            "confidence": 0.987,
+            "spans": [
+              {
+                "offset": 28,
+                "length": 13
+              }
+            ]
+          },
+          "InvoiceTotal": {
+            "type": "currency",
+            "valueCurrency": {
+              "currencySymbol": "USD",
+              "amount": 9771.69,
+              "currencyCode": "USD"
+            },
+            "content": "USD 9,771.69",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  6.7643,
+                  4.9947,
+                  7.8083,
+                  4.9941,
+                  7.8084,
+                  5.168,
+                  6.7644,
+                  5.1686
+                ]
+              }
+            ],
+            "confidence": 0.942,
+            "spans": [
+              {
+                "offset": 300,
+                "length": 12
+              }
+            ]
+          },
+          "Items": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 2416.11,
+                      "currencyCode": "USD"
+                    },
+                    "content": "2416.11",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          7.1859,
+                          4.2868,
+                          7.6921,
+                          4.2863,
+                          7.6921,
+                          4.4174,
+                          7.1856,
+                          4.4177
+                        ]
+                      }
+                    ],
+                    "confidence": 0.955,
+                    "spans": [
+                      {
+                        "offset": 249,
+                        "length": 7
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Support Contract",
+                    "content": "Support Contract",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          0.7702,
+                          4.2804,
+                          1.8428,
+                          4.2789,
+                          1.843,
+                          4.4406,
+                          0.7704,
+                          4.4421
+                        ]
+                      }
+                    ],
+                    "confidence": 0.937,
+                    "spans": [
+                      {
+                        "offset": 223,
+                        "length": 16
+                      }
+                    ]
+                  },
+                  "Quantity": {
+                    "type": "number",
+                    "valueNumber": 3,
+                    "content": "3",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          4.8365,
+                          4.2897,
+                          4.9196,
+                          4.2905,
+                          4.9196,
+                          4.4122,
+                          4.836,
+                          4.4094
+                        ]
+                      }
+                    ],
+                    "confidence": 0.955,
+                    "spans": [
+                      {
+                        "offset": 240,
+                        "length": 1
+                      }
+                    ]
+                  },
+                  "UnitPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 805.37,
+                      "currencyCode": "USD"
+                    },
+                    "content": "805.37",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          5.8769,
+                          4.2875,
+                          6.3086,
+                          4.2867,
+                          6.3086,
+                          4.4178,
+                          5.8764,
+                          4.4193
+                        ]
+                      }
+                    ],
+                    "confidence": 0.955,
+                    "spans": [
+                      {
+                        "offset": 242,
+                        "length": 6
+                      }
+                    ]
+                  }
+                },
+                "content": "Support Contract\n3\n805.37\n2416.11",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      0.7702,
+                      4.2804,
+                      7.6921,
+                      4.2706,
+                      7.6923,
+                      4.4323,
+                      0.7704,
+                      4.4421
+                    ]
+                  }
+                ],
+                "confidence": 0.923,
+                "spans": [
+                  {
+                    "offset": 223,
+                    "length": 33
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Amount": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 7355.58,
+                      "currencyCode": "USD"
+                    },
+                    "content": "7355.58",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          7.189,
+                          4.5334,
+                          7.7031,
+                          4.5327,
+                          7.7031,
+                          4.6668,
+                          7.1887,
+                          4.6668
+                        ]
+                      }
+                    ],
+                    "confidence": 0.955,
+                    "spans": [
+                      {
+                        "offset": 285,
+                        "length": 7
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Report Generation",
+                    "content": "Report Generation",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          0.7709,
+                          4.5335,
+                          1.9258,
+                          4.5331,
+                          1.9259,
+                          4.6878,
+                          0.771,
+                          4.6882
+                        ]
+                      }
+                    ],
+                    "confidence": 0.937,
+                    "spans": [
+                      {
+                        "offset": 257,
+                        "length": 17
+                      }
+                    ]
+                  },
+                  "Quantity": {
+                    "type": "number",
+                    "valueNumber": 2,
+                    "content": "2",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          4.8371,
+                          4.5407,
+                          4.9196,
+                          4.5413,
+                          4.9196,
+                          4.6659,
+                          4.8365,
+                          4.6623
+                        ]
+                      }
+                    ],
+                    "confidence": 0.955,
+                    "spans": [
+                      {
+                        "offset": 275,
+                        "length": 1
+                      }
+                    ]
+                  },
+                  "UnitPrice": {
+                    "type": "currency",
+                    "valueCurrency": {
+                      "amount": 3677.79,
+                      "currencyCode": "USD"
+                    },
+                    "content": "3677.79",
+                    "boundingRegions": [
+                      {
+                        "pageNumber": 1,
+                        "polygon": [
+                          5.7994,
+                          4.5359,
+                          6.3134,
+                          4.5353,
+                          6.3124,
+                          4.6688,
+                          5.7989,
+                          4.6698
+                        ]
+                      }
+                    ],
+                    "confidence": 0.955,
+                    "spans": [
+                      {
+                        "offset": 277,
+                        "length": 7
+                      }
+                    ]
+                  }
+                },
+                "content": "Report Generation\n2\n3677.79\n7355.58",
+                "boundingRegions": [
+                  {
+                    "pageNumber": 1,
+                    "polygon": [
+                      0.7709,
+                      4.5335,
+                      7.7031,
+                      4.5288,
+                      7.7032,
+                      4.6835,
+                      0.771,
+                      4.6882
+                    ]
+                  }
+                ],
+                "confidence": 0.923,
+                "spans": [
+                  {
+                    "offset": 257,
+                    "length": 35
+                  }
+                ]
+              }
+            ]
+          },
+          "VendorAddress": {
+            "type": "address",
+            "content": "123 Business Avenue\nSuite 100, Business City",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6914,
+                  1.4724,
+                  2.5077,
+                  1.4773,
+                  2.5066,
+                  1.8801,
+                  0.6903,
+                  1.8752
+                ]
+              }
+            ],
+            "confidence": 0.891,
+            "spans": [
+              {
+                "offset": 58,
+                "length": 19
+              },
+              {
+                "offset": 103,
+                "length": 24
+              }
+            ],
+            "valueAddress": {
+              "houseNumber": "123",
+              "road": "Business Avenue",
+              "streetAddress": "123 Business Avenue Suite 100",
+              "unit": "Suite 100",
+              "house": "Business City"
+            }
+          },
+          "VendorAddressRecipient": {
+            "type": "string",
+            "valueString": "Acme Solutions Inc.",
+            "content": "Acme Solutions Inc.",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6884,
+                  1.2522,
+                  2.1637,
+                  1.2522,
+                  2.1637,
+                  1.4172,
+                  0.6884,
+                  1.4172
+                ]
+              }
+            ],
+            "confidence": 0.93,
+            "spans": [
+              {
+                "offset": 8,
+                "length": 19
+              }
+            ]
+          },
+          "VendorName": {
+            "type": "string",
+            "valueString": "Acme Solutions Inc.",
+            "content": "Acme Solutions Inc.",
+            "boundingRegions": [
+              {
+                "pageNumber": 1,
+                "polygon": [
+                  0.6884,
+                  1.2522,
+                  2.1637,
+                  1.2522,
+                  2.1637,
+                  1.4172,
+                  0.6884,
+                  1.4172
+                ]
+              }
+            ],
+            "confidence": 0.93,
+            "spans": [
+              {
+                "offset": 8,
+                "length": 19
+              }
+            ]
+          }
+        },
+        "confidence": 1,
+        "spans": [
+          {
+            "offset": 0,
+            "length": 369
+          }
+        ]
+      }
+    ],
+    "contentFormat": "text"
+  }
+}

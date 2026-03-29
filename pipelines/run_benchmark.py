@@ -3,6 +3,7 @@
 Runs extraction pipelines against ground truth and reports KPIs.
 
 Usage:
+
     python -m pipelines.run_benchmark --pipeline azure
     python -m pipelines.run_benchmark --pipeline openai
     python -m pipelines.run_benchmark --pipeline anthropic
@@ -213,6 +214,10 @@ def main() -> None:
         print("Running Azure Document Intelligence pipeline...")
         extractions = _run_azure(ground_truth)
         _run_and_report("azure", ground_truth, extractions, args.azure_cost, args.output_dir)
+
+        from benchmark.log_azure import log_azure_run_summary
+        log_path = log_azure_run_summary(extractions)
+        print(f"  Azure raw logs saved to: {log_path}\n")
 
     if args.pipeline == "openai" or run_all:
         print("Running OpenAI pipeline...")
