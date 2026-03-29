@@ -1,0 +1,413 @@
+{
+  "run_id": "20260329_125914",
+  "logged_at": "2026-03-29T12:59:14.552872+00:00",
+  "total_documents": 5,
+  "documents_with_raw_response": 5,
+  "documents": {
+    "invoice_easy_001.pdf": {
+      "latency_ms": 7575,
+      "errors": [],
+      "extracted_fields": {
+        "invoice_number": "INV-2026-0001",
+        "invoice_date": "2026-03-11",
+        "vendor_name": "Acme Solutions Inc.",
+        "total_amount": 9771.69,
+        "currency": "USD"
+      },
+      "document_type": null,
+      "document_confidence": 1,
+      "field_confidences": {
+        "BillingAddress": {
+          "confidence": 0.93,
+          "type": "address",
+          "content": "456 Client Road"
+        },
+        "BillingAddressRecipient": {
+          "confidence": 0.931,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "CustomerName": {
+          "confidence": 0.931,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "InvoiceDate": {
+          "confidence": 0.865,
+          "type": "date",
+          "content": "2026-03-11"
+        },
+        "InvoiceId": {
+          "confidence": 0.987,
+          "type": "string",
+          "content": "INV-2026-0001"
+        },
+        "InvoiceTotal": {
+          "confidence": 0.942,
+          "type": "currency",
+          "content": "USD 9,771.69"
+        },
+        "Items": {
+          "confidence": null,
+          "type": "array",
+          "content": null
+        },
+        "VendorAddress": {
+          "confidence": 0.891,
+          "type": "address",
+          "content": "123 Business Avenue\nSuite 100, Business City"
+        },
+        "VendorAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Acme Solutions Inc."
+        },
+        "VendorName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Acme Solutions Inc."
+        }
+      },
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": null,
+          "width": 8.5,
+          "height": 11,
+          "unit": "inch",
+          "angle": 0.05043400079011917,
+          "word_count": 55,
+          "line_count": 27
+        }
+      ],
+      "table_count": 2,
+      "key_value_pair_count": 0,
+      "api_version": null,
+      "model_id": null
+    },
+    "invoice_easy_002.pdf": {
+      "latency_ms": 7467,
+      "errors": [],
+      "extracted_fields": {
+        "invoice_number": "INV-2026-0002",
+        "invoice_date": "2026-05-12",
+        "vendor_name": "Greenfield Logistics LLC",
+        "total_amount": 862.66,
+        "currency": "USD"
+      },
+      "document_type": null,
+      "document_confidence": 1,
+      "field_confidences": {
+        "BillingAddress": {
+          "confidence": 0.93,
+          "type": "address",
+          "content": "456 Client Road"
+        },
+        "BillingAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "CustomerName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "InvoiceDate": {
+          "confidence": 0.985,
+          "type": "date",
+          "content": "2026-05-12"
+        },
+        "InvoiceId": {
+          "confidence": 0.987,
+          "type": "string",
+          "content": "INV-2026-0002"
+        },
+        "InvoiceTotal": {
+          "confidence": 0.938,
+          "type": "currency",
+          "content": "USD 862.66"
+        },
+        "Items": {
+          "confidence": null,
+          "type": "array",
+          "content": null
+        },
+        "VendorAddress": {
+          "confidence": 0.889,
+          "type": "address",
+          "content": "123 Business Avenue\nSuite 100, Business City"
+        },
+        "VendorAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Greenfield Logistics LLC"
+        },
+        "VendorName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Greenfield Logistics LLC"
+        }
+      },
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": null,
+          "width": 8.5,
+          "height": 11,
+          "unit": "inch",
+          "angle": 0.07916097342967987,
+          "word_count": 65,
+          "line_count": 35
+        }
+      ],
+      "table_count": 2,
+      "key_value_pair_count": 0,
+      "api_version": null,
+      "model_id": null
+    },
+    "invoice_easy_003.pdf": {
+      "latency_ms": 7479,
+      "errors": [],
+      "extracted_fields": {
+        "invoice_number": "INV-2026-0003",
+        "invoice_date": "2026-07-13",
+        "vendor_name": "Maple Leaf Trading Co.",
+        "total_amount": 4487.93,
+        "currency": "CAD"
+      },
+      "document_type": null,
+      "document_confidence": 1,
+      "field_confidences": {
+        "BillingAddress": {
+          "confidence": 0.93,
+          "type": "address",
+          "content": "456 Client Road"
+        },
+        "BillingAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "CustomerName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "InvoiceDate": {
+          "confidence": 0.986,
+          "type": "date",
+          "content": "2026-07-13"
+        },
+        "InvoiceId": {
+          "confidence": 0.987,
+          "type": "string",
+          "content": "INV-2026-0003"
+        },
+        "InvoiceTotal": {
+          "confidence": 0.912,
+          "type": "currency",
+          "content": "CAD 4,487.93"
+        },
+        "Items": {
+          "confidence": null,
+          "type": "array",
+          "content": null
+        },
+        "VendorAddress": {
+          "confidence": 0.89,
+          "type": "address",
+          "content": "123 Business Avenue\nSuite 100, Business City"
+        },
+        "VendorAddressRecipient": {
+          "confidence": 0.921,
+          "type": "string",
+          "content": "Maple Leaf Trading Co."
+        },
+        "VendorName": {
+          "confidence": 0.921,
+          "type": "string",
+          "content": "Maple Leaf Trading Co."
+        }
+      },
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": null,
+          "width": 8.5,
+          "height": 11,
+          "unit": "inch",
+          "angle": 0.03454834967851639,
+          "word_count": 56,
+          "line_count": 27
+        }
+      ],
+      "table_count": 2,
+      "key_value_pair_count": 0,
+      "api_version": null,
+      "model_id": null
+    },
+    "invoice_easy_004.pdf": {
+      "latency_ms": 7477,
+      "errors": [],
+      "extracted_fields": {
+        "invoice_number": "INV-2026-0004",
+        "invoice_date": "2026-09-14",
+        "vendor_name": "Sunrise Digital Services",
+        "total_amount": 3736.56,
+        "currency": "USD"
+      },
+      "document_type": null,
+      "document_confidence": 1,
+      "field_confidences": {
+        "BillingAddress": {
+          "confidence": 0.93,
+          "type": "address",
+          "content": "456 Client Road"
+        },
+        "BillingAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "CustomerName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "InvoiceDate": {
+          "confidence": 0.982,
+          "type": "date",
+          "content": "2026-09-14"
+        },
+        "InvoiceId": {
+          "confidence": 0.987,
+          "type": "string",
+          "content": "INV-2026-0004"
+        },
+        "InvoiceTotal": {
+          "confidence": 0.937,
+          "type": "currency",
+          "content": "USD 3,736.56"
+        },
+        "Items": {
+          "confidence": null,
+          "type": "array",
+          "content": null
+        },
+        "VendorAddress": {
+          "confidence": 0.889,
+          "type": "address",
+          "content": "123 Business Avenue\nSuite 100, Business City"
+        },
+        "VendorAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sunrise Digital Services"
+        },
+        "VendorName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sunrise Digital Services"
+        }
+      },
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": null,
+          "width": 8.5,
+          "height": 11,
+          "unit": "inch",
+          "angle": 0.04045255854725838,
+          "word_count": 65,
+          "line_count": 35
+        }
+      ],
+      "table_count": 2,
+      "key_value_pair_count": 0,
+      "api_version": null,
+      "model_id": null
+    },
+    "invoice_easy_005.pdf": {
+      "latency_ms": 7447,
+      "errors": [],
+      "extracted_fields": {
+        "invoice_number": "INV-2026-0005",
+        "invoice_date": "2026-11-15",
+        "vendor_name": "Atlantic Freight Corp.",
+        "total_amount": 11178.83,
+        "currency": "USD"
+      },
+      "document_type": null,
+      "document_confidence": 1,
+      "field_confidences": {
+        "BillingAddress": {
+          "confidence": 0.93,
+          "type": "address",
+          "content": "456 Client Road"
+        },
+        "BillingAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "CustomerName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Sample Customer Corp."
+        },
+        "InvoiceDate": {
+          "confidence": 0.986,
+          "type": "date",
+          "content": "2026-11-15"
+        },
+        "InvoiceId": {
+          "confidence": 0.987,
+          "type": "string",
+          "content": "INV-2026-0005"
+        },
+        "InvoiceTotal": {
+          "confidence": 0.93,
+          "type": "currency",
+          "content": "USD 11,178.83"
+        },
+        "Items": {
+          "confidence": null,
+          "type": "array",
+          "content": null
+        },
+        "VendorAddress": {
+          "confidence": 0.889,
+          "type": "address",
+          "content": "123 Business Avenue\nSuite 100, Business City"
+        },
+        "VendorAddressRecipient": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Atlantic Freight Corp."
+        },
+        "VendorName": {
+          "confidence": 0.93,
+          "type": "string",
+          "content": "Atlantic Freight Corp."
+        }
+      },
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": null,
+          "width": 8.5,
+          "height": 11,
+          "unit": "inch",
+          "angle": 0.10391329973936081,
+          "word_count": 65,
+          "line_count": 35
+        }
+      ],
+      "table_count": 2,
+      "key_value_pair_count": 0,
+      "api_version": null,
+      "model_id": null
+    }
+  }
+}
